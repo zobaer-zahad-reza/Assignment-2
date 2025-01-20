@@ -272,4 +272,33 @@ nav ul{
         padding: 15px;
         text-align: center;
     }
+    .curriculum-section{
+        padding: 0px;
+    }
+    .curriculum-cards{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum-card{
+        width: auto;
+    }
+    .curriculum-card img{
+        padding-top: 60px;
+    }
+    .curriculum-card h4{
+        padding-top: 20px;
+    }
+    .curriculum-card p{
+        padding-top: 20px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .curriculum-section h2{
+        font-size: 1.625rem;
+    }
+    .arrow-icone{
+        display: none;
+    }
 }
