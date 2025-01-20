@@ -96,17 +96,41 @@ nav ul{
     display: flex;
     padding-left: 85px;
     padding-right: 85px;
+    padding-top: 30px;
 }
 .hero-container h1{
     font-size: 3rem;
     font-weight: bold;
     color: #111111;
+    margin-bottom: 10px;
 }
 .hero-container h1 .empowering{
     color: #FEA301;
 }
+.hero-container h1 .vision{
+    color: #01ACFD;
+}
+.hero-container p{
+    font-size: 0.8rem;
+    padding-right: 12px;
+}
 .hero-img img{
     width: 100%;
+}
+.hero-content button{
+    color: #FFFFFF;
+    background-color: #111111;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 12px;
+}
+.hero-content button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+    border: 2px solid #111111;
+    cursor: pointer;
 }
 /* Mobile size resposive style */
 @media screen and (max-width: 576px) {
@@ -140,5 +164,10 @@ nav ul{
         font-size: 1.7rem;
         padding-top: 13px;
         color: #000000;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+        padding: 15px;
+        text-align: center;
     }
 }
