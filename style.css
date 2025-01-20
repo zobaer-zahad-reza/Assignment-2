@@ -88,18 +88,37 @@ nav ul{
     color: #FEA301;
     border: 2px solid #FEA301;
 }
-header hr{
-    display: none;
-}
 .bar{
     display: none;
 }
-
+/* Hero section style */
+.hero-container{
+    display: flex;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.hero-container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #111111;
+}
+.hero-container h1 .empowering{
+    color: #FEA301;
+}
+.hero-img img{
+    width: 100%;
+}
 /* Mobile size resposive style */
 @media screen and (max-width: 576px) {
+    *{
+        margin: 0px;
+    }
     nav .nav-list , 
     .nav-btn button{
         display: none;
+    }
+    header{
+        border: 1px solid #FEA301;
     }
     nav{
         justify-content: space-between;
@@ -121,8 +140,5 @@ header hr{
         font-size: 1.7rem;
         padding-top: 13px;
         color: #000000;
-    }
-    header hr{
-        display: block;
     }
 }
