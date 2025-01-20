@@ -17,10 +17,112 @@
   font-style: normal;
 }
 /* Nav section style */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
 .nav-img{
     display: flex;
+    /* padding-left: 80px; */
+    
 }
 .nav-img img{
     width: 50px;
     height: 50px;
+}
+.nav-img h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-left: 6px;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+}
+.nav-list ul li{
+    list-style: none;
+    padding-right: 25px;
+    
+}
+.nav-list ul li a{
+    text-decoration: none;
+}
+.nav-list ul .home{
+    color: #FEA301;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-list ul .about{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #01ACFD;
+}
+.nav-list ul .facilities{
+    color: #05D4DF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-list ul .admission{
+    color: #5D58EF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-btn{
+    margin-top: 11px;
+}
+.nav-btn button{
+    font-size: 1rem;
+    font-weight:700;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: #FFFFFF;
+    color: #FEA301;
+    border: 2px solid #FEA301;
+}
+header hr{
+    display: none;
+}
+.bar{
+    display: none;
+}
+
+/* Mobile size resposive style */
+@media screen and (max-width: 576px) {
+    nav .nav-list , 
+    .nav-btn button{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-img h2{
+        display: none;
+    }
+    .bar{
+        display: block;
+        width: 30px;
+        height: 30px;
+
+    }
+    .bar a i{
+        font-size: 1.7rem;
+        padding-top: 13px;
+        color: #000000;
+    }
+    header hr{
+        display: block;
+    }
 }
