@@ -132,6 +132,108 @@ nav ul{
     border: 2px solid #111111;
     cursor: pointer;
 }
+/* curriculum section style */
+.curriculum-section{
+    background-image: url(assets/bg.png);
+    background-size: cover;
+    text-align: center;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.curriculum-section h2{
+    padding-top: 30px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding-top: 60px;
+}
+.curriculum-card{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+}
+.card1{
+    background: linear-gradient(to bottom, #DEF5FF, #fcfeff34);
+}
+.card2{
+    background: linear-gradient(to bottom, #FFF4DC, #fcfeff34);
+}
+.card3{
+    background: linear-gradient(to bottom, #F2E8FF, #fcfeff34);
+}
+.curriculum-card img{
+    padding-top: 30px;
+}
+.curriculum-card h4{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.curriculum-card p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #808080;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.curriculum-card a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.card1 a{
+    color: #64C8FF;;
+}
+.card1 a:hover{
+    color: rgb(5, 139, 146);
+    font-size: 0.9rem;
+}
+.card2 a{
+    color: #F0AA00;
+}
+.card2 a:hover{
+    color: #ffb300;
+    font-size: 0.9rem;
+}
+.card3 a{
+    color: #8700FF;
+}
+.card3 a:hover{
+    color: #7b08df;
+    font-size: 0.9rem;
+}
+.curriculum-section i{
+    font-size: 1rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #F0AA00; 
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.curriculum-section i:hover{
+    color: #F0AA00;
+    background-color: #FFFFFF;
+    border: 2px solid #F0AA00;
+}
+.arrow-icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+}
+.arrow-icone:hover{
+    cursor: pointer;    
+}
 /* Mobile size resposive style */
 @media screen and (max-width: 576px) {
     *{
