@@ -186,6 +186,7 @@ nav ul{
     padding-top: 1px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 30px;
 }
 .curriculum-card a{
     text-decoration: none;
@@ -193,7 +194,7 @@ nav ul{
     font-size: 0.8rem;
 }
 .card1 a{
-    color: #64C8FF;;
+    color: #64C8FF;
 }
 .card1 a:hover{
     color: rgb(5, 139, 146);
