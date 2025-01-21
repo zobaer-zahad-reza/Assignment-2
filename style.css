@@ -549,4 +549,7 @@ footer{
     .footer-social{
         margin-left: 16px;
     }
+    marquee{
+        display: none;
+    }
 }
