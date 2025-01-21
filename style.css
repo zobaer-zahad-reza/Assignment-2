@@ -367,6 +367,9 @@ nav ul{
 #story-card5 .timee{
     background-color: #95B226;
 }
+#story-card6 , #story-card7{
+    display: none;
+}
 /* Mobile size resposive style */
 @media screen and (max-width: 576px) {
     *{
@@ -433,5 +436,24 @@ nav ul{
     }
     .arrow-icone{
         display: none;
+    }
+    #story-card1{
+        display: none;
+    }
+    .story-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .story-section{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #story-card6 , #story-card7{
+        display: block;
+    }
+    #story-card6 .timee{
+        background-color: #95B226;
+    }
+    #story-card7 .timee{
+        background-color: #5D58F0;
     }
 }
