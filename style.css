@@ -442,12 +442,15 @@ nav ul{
     }
     .story-card-container{
         grid-template-columns: repeat(2,1fr);
-        padding-left: 16px;
-        padding-right: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .story-section{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .story-card .timee{
+        top: -90px;
     }
     #story-card6 , #story-card7{
         display: block;
