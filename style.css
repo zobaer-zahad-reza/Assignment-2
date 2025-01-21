@@ -95,6 +95,10 @@ nav ul{
 .bar{
     display: none;
 }
+marquee{
+    margin-top: 20px;
+    color:  #05D4DF;
+}
 /* Hero section style */
 .hero-container{
     display: flex;
@@ -139,7 +143,7 @@ nav ul{
 /* curriculum section style */
 .curriculum-section{
     background-image: url(assets/bg.png);
-    background-size: cover;
+    background-size: 100%;
     text-align: center;
     padding-left: 85px;
     padding-right: 85px;
@@ -238,12 +242,12 @@ nav ul{
     height: 100px;
 }
 .arrow-icone:hover{
-    cursor: pointer;    
+    cursor: pointer;   
 }
 /* story section style */
 .story{
-    background-image: url(assets/bg.png),linear-gradient(to top, #fea10150, #FFFFFF);
-    background-size: cover;
+    background-image: url(assets/bg.png),linear-gradient(to top, #fea1015d, #FFFFFF);
+    background-size: 100%;
     max-width: 1440px;
 }
 .story-section{
