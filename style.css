@@ -452,6 +452,9 @@ nav ul{
     .story-card .timee{
         top: -90px;
     }
+    #story-card4 .timee{
+        top: -106px;
+    }
     #story-card6 , #story-card7{
         display: block;
     }
