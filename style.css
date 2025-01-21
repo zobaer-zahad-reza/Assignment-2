@@ -488,6 +488,7 @@ footer{
     }
     .curriculum-card{
         width: auto;
+        padding-bottom: 30px;
     }
     .curriculum-card img{
         padding-top: 60px;
